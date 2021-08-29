@@ -6,7 +6,7 @@ function AboutSection() {
     <div>
       <div className="h-auto">
         <div className="justify-between sm:flex md:justify-start lg:w-80  ">
-          <div className="w-70">
+          <div className="md:w-90">
             <picture>
               <source
                 media="(min-width: 1440px)"

@@ -20,7 +20,7 @@ function ProjectPreview({
 }) {
   return (
     <>
-      <div>
+      <div className="w-80 m-auto">
         <Head>
           <noscript>
             <link rel="stylesheet" href="noscript.css" />

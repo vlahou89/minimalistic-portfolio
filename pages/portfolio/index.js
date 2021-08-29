@@ -1,11 +1,12 @@
 import Footer from "../../components/Footer";
+import ContactSection from "../../components/HomePageSections/ContactSection";
 import Nav from "../../components/Navbar/Nav";
 import ProjectsList from "../../components/Portfolio/ProjectsList";
 
 function portfolio() {
   return (
     <>
-      <div className=" m-auto">
+      <div className=" w-80 m-auto">
         <Nav />
         <section className="py-16 md:pb-20">
           <ProjectsList slug="manage">
@@ -51,6 +52,7 @@ function portfolio() {
             </>
           </ProjectsList>
         </section>
+        <ContactSection />
       </div>
       <Footer />
     </>

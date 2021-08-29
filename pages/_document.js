@@ -17,7 +17,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="w-80 m-auto">
+        <body className="m-auto">
           <Main />
           <NextScript />
         </body>
