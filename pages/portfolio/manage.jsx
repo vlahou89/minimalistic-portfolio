@@ -15,7 +15,7 @@ const data = {
   next_project: "Bookmark",
 };
 
-export default function manage() {
+function manage() {
   return (
     <>
       <Head>
@@ -27,3 +27,5 @@ export default function manage() {
     </>
   );
 }
+
+export default manage;

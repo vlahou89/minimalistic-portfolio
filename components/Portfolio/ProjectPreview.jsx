@@ -7,7 +7,7 @@ import ProjectHero from "./ProjectHero";
 import ProjectTags from "./ProjectTags";
 import ContactSection from "../HomePageSections/ContactSection";
 
-export default function ProjectPreview({
+function ProjectPreview({
   projectName,
   heroAlt,
   summary_heading,
@@ -58,3 +58,5 @@ export default function ProjectPreview({
     </>
   );
 }
+
+export default ProjectPreview;

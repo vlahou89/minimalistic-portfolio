@@ -15,7 +15,7 @@ const data = {
   next_project: "Insure",
 };
 
-export default function bookmark() {
+function bookmark() {
   return (
     <>
       <Head>
@@ -27,3 +27,5 @@ export default function bookmark() {
     </>
   );
 }
+
+export default bookmark;

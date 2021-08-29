@@ -2,7 +2,7 @@ import Footer from "../../components/Footer";
 import Nav from "../../components/Navbar/Nav";
 import ProjectsList from "../../components/Portfolio/ProjectsList";
 
-export default function portfolio() {
+function portfolio() {
   return (
     <>
       <div className=" m-auto">
@@ -56,3 +56,5 @@ export default function portfolio() {
     </>
   );
 }
+
+export default portfolio;
