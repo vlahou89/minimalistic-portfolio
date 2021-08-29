@@ -21,7 +21,8 @@ function contact() {
           exit="exit" // Exit state (used later) to variants.exit
           transition={{ type: "linear" }}
         >
-          <div className="hidden my-6 border-b opacity-25 md:block border-p3" />
+          <div className="hidden w-full my-6  border-b opacity-25 md:block border-p3" />
+
           <section className="lg:flex lg:flex-row ">
             <div className="lg:w-40 ">
               <h1 className=" pt-10 font-serif font-bold leading-none tracking-tight text-p3 text-40 xl:text-50 xl:tracking-normal">
@@ -44,8 +45,6 @@ function contact() {
                 </div>
               </p>
             </div>
-
-            <hr />
           </section>
           <div className="hidden w-full my-6  border-b opacity-25 md:block border-p3" />
 
